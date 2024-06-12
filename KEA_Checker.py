@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from time import sleep
 from datetime import date
 
-#These are date formats used to check the announcement
+#These are date formats used to check the announcements
 def format_1():
     d = date.today()
     fd = d.strftime("%d-%m")

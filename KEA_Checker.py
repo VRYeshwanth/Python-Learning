@@ -31,11 +31,13 @@ for tr in tr_tags:
     text = tr.text.strip()
     if format_1() in text or format_2() in text:
         todays_announcements.append(text)
-
+print("--------------------------------------------")
 if(len(todays_announcements) == 0):
     print("No new announcements at present")
+    print("--------------------------------------------")
     exit(0)
 print("Today's Announcements")
 for i, announcement in enumerate(todays_announcements):
     print(f"{i+1}) {announcement}")
+print("--------------------------------------------")
 sleep(5)

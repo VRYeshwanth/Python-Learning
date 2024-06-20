@@ -3,7 +3,7 @@ import shutil
 import time
 
 videos = [".mp4", ".avi", ".mkv"]
-images = [".png", ".jpeg", ".jpg", ".gif"]
+images = [".png", ".jpeg", ".jpg", ".gif", ".ico"]
 documents = [".txt", ".docx", ".pptx", ".xlsx", ".doc", ".ppt"]
 pdf = [".pdf"]
 executables = [".exe"]

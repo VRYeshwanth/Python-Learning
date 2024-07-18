@@ -44,4 +44,4 @@ data = {
 }
 df = pd.DataFrame(data)
 print(df)
-df.to_excel("Laptop Prices.xlsx")
+df.to_excel("Laptop Prices.xlsx", index=False)
